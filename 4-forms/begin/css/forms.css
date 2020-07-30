@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Architects Daughter', cursive;
+	margin: 0;
+	padding: 0;
+	background-image:url(../img/galaxy.jpg)
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	 background-color: #efb106;
+}
+p, [for="abtype"] {
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p{margin-bottom: 1rem;
+margin-top: 0.5em;}
+
+fieldset{border: 2px solid red;
+border-radius:10px;
+margin-bottom:1.5rem;}
+
+legend{font-weight:bold;
+	font-size:1rem;
+	margin-top:0rem;
+margin-bottom:0rem;
+display: block;}
+label{display:block;
+margin-bottom: .3rem;}
+
+textarea{margin:0;
+padding:1rem;}
+
+select{font-size:1rem}
+
+button{font-size:1.5rem;
+margin:2rem 0;
+background-color:red;
+color:white;
+border:none;
+border-radius:10px;
+padding:0.5rem,1rem;}
+
+
+button:hover{background-color:blue;}
+
+
+input:not([type="radio"]):not([type="checkbox"]),textarea,select{display:block;
+margin:0 0 2rem 0;
+padding:0 1rem;
+font-size:1rem;
+width:20rem;
+font-family:Arial, Helvetica, sans-serif;
+border-radius: 10px;
+border:none;
+}
+
+
+
+
+
+
+
+
+
